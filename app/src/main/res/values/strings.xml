@@ -1,0 +1,58 @@
+<resources>
+    <!-- Strings used both in XML and Java/Kotlin files -->
+    <string name="app_name">Supplement Tracker</string>
+    <string name="placeholder">Lorem ipsum</string>
+    <string name="main_banner">Supplement Tracker</string>
+    <string name="supplements_list_banner">My supplements</string>
+    <string name="SupplementNameHint">Name</string>
+    <string name="SupplementLastTakenHint">Last taken (dd/mm/yyyy)</string>
+    <string name="SupplementDoseHint">Dose</string>
+    <string name="SupplementFrequencyHint">Frequency in days</string>
+    <string name="SuppelemntAddButton">Add</string>
+    <string name="SuppelemntAddBanner">Add supplement</string>
+    <string name="title_activity_test">testActivity</string>
+    <string name="closeSettingsImageButtonContentDesc">Back arrow</string>
+    <string name="deleteSupplements">Delete all supplements</string>
+    <string name="shareApp">Share with friends</string>
+    <string name="aboutUs">About us</string>
+    <string name="lastTaken">Last taken</string>
+    <string name="dose">Dose</string>
+    <string name="nextIntake">Next intake</string>
+    <string name="daysLeft">Days left</string>
+    <string name="delete">Delete</string>
+    <string name="take">Take</string>
+    <string name="SupplementModifyBanner">Modify supplement</string>
+    <string name="SuppelemntModifyButton">Modify</string>
+    <string name="today">Today</string>
+    <string name="notifications_switch">NOTIFICATIONS</string>
+    <string name="notificationSystemDisabledInfo">Notifications are disabled in system settings</string>
+
+    <!-- String used exclusively in Java and Kotlin code -->
+    <string name="taken">taken</string>
+    <string name="delete_supplement">Delete supplement</string>
+    <string name="confirmationDeletionOne">Are you sure you want to delete</string>
+    <string name="confirmationDeletionSecond">This action can\'t be reverted</string>
+    <string name="yes">Yes</string>
+    <string name="deleted">deleted</string>
+    <string name="no">No</string>
+    <string name="deletingAllSupplementsText">Are you sure you want to delete all supplements? This action can\'t be reverted</string>
+    <string name="deletingAllSupplementsConfirmation">All supplements deleted</string>
+    <string name="shareTitle">Check out Supplement Tracker!</string>
+    <string name="shareContent">Supplement Tracker is really great app for tracking your supplements intakes. You should give it a try!</string>
+    <string name="shareVia">Share via...</string>
+    <string name="modified">Supplement modified</string>
+    <string name="dateFormatError">Used date has wrong format (DD/MM/YYYY)</string>
+    <string name="dateFutureError">Last taken date can\'t be from a future</string>
+    <string name="dosageErrorZero">Supplement dosage can\'t be 0</string>
+    <string name="dosageErrorLength">Supplement dosage is too long</string>
+    <string name="frequencyErrorZero">Frequency of dosage can\'t be 0 days</string>
+    <string name="frequencyErrorDistance">Frequency of dosage can\'t be longer than 25 days</string>
+    <string name="frequencyErrorNull">You must insert dosage frequency</string>
+    <string name="supplementNameErrorNull">You must insert supplement name</string>
+    <string name="supplementNameErrorLength">Supplement name is too long</string>
+    <string name="supplementNameErrorSign">Supplement name mustn\'t contain \' signs</string>
+    <string name="supplementAdded">Supplement added</string>
+    <string name="supplementExistsErrorFirst">Supplement</string>
+    <string name="supplementExistsErrorSecond">already exists</string>
+    <string name = "notificationSettingsInfo">Receive notification reminders for taking supplements</string>
+</resources>

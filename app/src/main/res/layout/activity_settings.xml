@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <ImageButton
+        android:id="@+id/close_settings_btn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/light_background"
+        android:contentDescription="@string/closeSettingsImageButtonContentDesc"
+        android:foregroundGravity="left"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#27363A3C" />
+
+    <Switch
+        android:id="@+id/notifications_switch"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:checked="false"
+        android:fontFamily="@font/googlesansmedium"
+        android:gravity="start|center_vertical"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:text="@string/notifications_switch"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:thumbTint="@drawable/nthumb"
+        android:trackTint="@drawable/nthumb" />
+
+    <TextView
+        android:id="@+id/notification_system_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7sp"
+        android:fontFamily="@font/googlesansregular"
+        android:paddingStart="20sp"
+        android:text="@string/placeholder"
+        android:textColor="@color/darkgrey" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#27363A3C" />
+
+    <Button
+        android:id="@+id/deleteSupplements_settings_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/googlesansmedium"
+        android:gravity="start|center_vertical"
+        android:paddingStart="20sp"
+        android:text="@string/deleteSupplements"
+        android:textColor="#FF0000" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#27363A3C" />
+
+    <Button
+        android:id="@+id/share_settings_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/googlesansmedium"
+        android:gravity="start|center_vertical"
+        android:paddingStart="20sp"
+        android:text="@string/shareApp"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#27363A3C" />
+
+    <Button
+        android:id="@+id/about_settings_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/googlesansmedium"
+        android:gravity="start|center_vertical"
+        android:paddingStart="20sp"
+        android:text="@string/aboutUs"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#27363A3C" />
+
+</LinearLayout>

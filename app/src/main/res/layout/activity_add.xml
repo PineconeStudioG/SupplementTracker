@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTintMode="multiply"
+            android:fontFamily="@font/googlesansbold"
+            android:foregroundGravity="left"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/main_banner"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/close_btn_addactivity"
+            android:layout_width="15sp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10sp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:paddingBottom="6dp"
+            app:icon="@drawable/baseline_close_24"
+            app:iconGravity="end"
+            app:iconTint="@color/white"
+            app:iconTintMode="src_in" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/AddSupplementBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/googlesansbold"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="@string/SuppelemntAddBanner"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="40sp">
+
+        <EditText
+            android:id="@+id/SupplementName"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15sp"
+            android:background="@drawable/rounded_add"
+            android:breakStrategy="simple"
+            android:ems="10"
+            android:fontFamily="@font/googlesansmedium"
+            android:hint="@string/SupplementNameHint"
+            android:inputType="textPersonName"
+            android:maxLength="17"
+            android:paddingStart="15sp"
+            android:paddingEnd="0sp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/LastTaken"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15sp"
+            android:background="@drawable/rounded_add"
+            android:ems="10"
+            android:fontFamily="@font/googlesansmedium"
+            android:hint="@string/SupplementLastTakenHint"
+            android:inputType="date"
+            android:maxLength="10"
+            android:paddingStart="15sp"
+            android:paddingEnd="0sp"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Dose"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15sp"
+            android:background="@drawable/rounded_add"
+            android:ems="10"
+            android:fontFamily="@font/googlesansmedium"
+            android:hint="@string/SupplementDoseHint"
+            android:inputType="textPersonName"
+            android:maxLength="10"
+            android:paddingStart="15sp"
+            android:paddingEnd="0sp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/FrequencyIndays"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="25sp"
+            android:background="@drawable/rounded_add"
+            android:ems="10"
+            android:fontFamily="@font/googlesansmedium"
+            android:hint="@string/SupplementFrequencyHint"
+            android:inputType="number"
+            android:maxLength="3"
+            android:paddingStart="15sp"
+            android:paddingEnd="0sp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_addSupplement"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:fontFamily="@font/googlesansregular"
+            android:text="@string/SuppelemntAddButton"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
