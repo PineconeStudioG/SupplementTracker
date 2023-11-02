@@ -4,7 +4,7 @@ Simple Android app for tracking supplement intakes
 Supplement Tracker was designed with simplicity in mind. It provides straightforward UI to add, modify and track your supplements list. You will never get lost in tons of unnecessary features many fitness apps flood you with, taking away their usability.
 
 # Technologies
-This project was developed using Android Studio + Java and Kotlin programming languages + SQLite
+This project was developed using Android Studio 2022.1.1 + Java and Kotlin programming languages + SQLite
 
 # Roadmap
 Project is not yet finished! It will be continuously developed and improved<br><br>
